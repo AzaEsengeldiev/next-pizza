@@ -4,7 +4,7 @@ import {InjectModel} from "@nestjs/sequelize";
 import {CreateUserDto} from "./dto/create-user.dto";
 import {RolesService} from "../roles/roles.service";
 import {AddRoleDto} from "./dto/add-role.dto";
-import {BanUserDto} from "./dto/ban-user.dto";
+import { BanUserDto } from './dto/ban-user.dto';
 
 @Injectable()
 export class UsersService {
